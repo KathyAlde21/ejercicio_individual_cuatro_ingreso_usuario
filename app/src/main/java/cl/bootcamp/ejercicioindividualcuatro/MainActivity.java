@@ -1,27 +1,5 @@
 package cl.bootcamp.ejercicioindividualcuatro;
 
-//import android.os.Bundle;
-//
-//import androidx.activity.EdgeToEdge;
-//import androidx.appcompat.app.AppCompatActivity;
-//import androidx.core.graphics.Insets;
-//import androidx.core.view.ViewCompat;
-//import androidx.core.view.WindowInsetsCompat;
-//
-//import android.app.Notification;
-//import android.app.NotificationChannel;
-//import android.app.NotificationManager;
-//import android.content.Context;
-//import android.os.Build;
-//import android.view.View;
-//import android.widget.Button;
-//import android.widget.EditText;
-//import android.widget.Toast;
-
-//import androidx.appcompat.app.AppCompatActivity;
-//import androidx.core.app.NotificationCompat;
-
-
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
@@ -48,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextName = findViewById(R.id.editTextText);
         EditText editTextPassword = findViewById(R.id.etPass);
         EditText editTextEmail = findViewById(R.id.editTextTextEmailAddress);
+        //btn
         Button button = findViewById(R.id.button);
 
-        // Crea el canal de notificación (para Android 8.0+)
         createNotificationChannel();
 
-        // Configura el evento del botón
+        // evento del botón
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
