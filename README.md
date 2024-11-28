@@ -1,9 +1,6 @@
-**_<h2 align="center">:vulcan_salute: Ejercicio Individual - xxx :computer:</h2>_**
+**_<h2 align="center">:vulcan_salute: Ejercicio Individual 4 :computer:</h2>_**
 
-Proyecto realizado según los siguientes requerimientos:
+Este proyecto es la continuación del Ejercico 3
 
 
 
-<img src="./assets/image/hola-mundo-1.PNG" alt="">
-<img src="./assets/image/hola-mundo-2.PNG" alt="">
-<img src="./assets/image/hola-mundo-2.PNG" alt="">
